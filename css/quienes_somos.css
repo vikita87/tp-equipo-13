@@ -85,6 +85,9 @@ footer {
     border-radius: 1em;
     border: 1px solid #5E3DB9;
     background-color: #53369F;
+    position: absolute;
+    bottom: 0;
+    width: 99%;
  }
 /*STYLES GENERALES*/
 body {
