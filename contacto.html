@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr Pc - Servicio Técnico</title>
+    <link rel="stylesheet" href="css/contacto.css">
+</head>
+<body>
+    <header>
+        <img src="img/Logo_DR_PC.png" alt="">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contacto.html" target="_blank">Contacto</a></li>
+                <li><a href="mantenimiento.html" target="_blank">Mantenimiento Técnico</a></li>
+                <li><a href="presupuesto.html" target="_blank">Presupuesto</a></li>
+                <li><a href="quienes_somos.html" target="_blank">Quienes somos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Formulario de contacto</h1>
+            <h3>Escribinos y en breve nos pondremos en contacto.</h3>
+
+            <form action="#" method="post">       
+       
+            <p>
+              <label for="nombre" class="colocar_nombre">Nombre
+                <span class="obligatorio">*</span>
+              </label>
+                <input type="text" name="introducir_nombre" id="nombre" required="required" placeholder="Escribe tu nombre">
+            </p>
+          
+            <p>
+              <label for="email" class="colocar_email">Email
+                <span class="obligatorio">*</span>
+              </label>
+                <input type="email" name="introducir_email" id="email" required="required" placeholder="Escribe tu email">
+            </p>
+        
+            <p>
+              <label for="telefone" class="colocar_telefono">Teléfono
+              </label>
+                <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+            </p>    
+          
+            <p>
+              <label for="asunto" class="colocar_asunto">Asunto
+                <span class="obligatorio">*</span>
+              </label>
+                <input type="text" name="introducir_asunto" id="assunto" required="required" placeholder="Escribe un asunto">
+            </p>    
+          
+            <p>
+              <label for="mensaje" class="colocar_mensaje">Mensaje
+                <span class="obligatorio">*</span>
+              </label>                     
+                <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="required" placeholder="Deja aquí tu mensaje..."></textarea> 
+            </p>                    
+          
+            <button type="submit" name="enviar_formulario" id="enviar">Enviar</button>
+
+            <p class="aviso">
+              <small><span class="obligatorio"> * </span>los campos son obligatorios.</small>
+            </p>          
+        
+            </form> 
+        </section>
+    </main>
+    <footer>
+        <p><small>© - Todos los derechos reservados - 2024</small></p>
+    </footer>
+</body>
+</html>
