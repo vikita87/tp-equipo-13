@@ -85,28 +85,29 @@ footer {
     border-radius: 1em;
     border: 1px solid #5E3DB9;
     background-color: #53369F;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 99%;
+    margin-bottom: 0;
  }
 /*STYLES GENERALES*/
 body {
-    /*display: flexbox;*/
     align-content: center;
     background-color: var(--blanco);
     height: 100%;
 }
 
 h1 {
+    margin: 3% 30% 3% 30%;
     margin-bottom: 15px;
     text-align: center;
 }
 
 .nosotros {
-    text-align: center;
+    text-align: left;
     margin: 50px 250px;
     padding: 1em;
-    border: 1px solid #5E3DB9;
+    border: 1px dashed #5E3DB9;
     border-radius: 1em;
     background-color: #BE9899;
 }
