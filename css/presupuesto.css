@@ -86,14 +86,16 @@ footer {
     border-radius: 1em;
     border: 1px solid #5E3DB9;
     background-color: #53369F;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 99%;
     margin-bottom: 0;
 }
 /*STYLES GENERALES*/
 body {
-    /*display: flexbox;*/
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
     align-content: center;
     background-color: var(--blanco);
     height: 100%;
@@ -118,8 +120,12 @@ input {
 button {
     padding: 2px;
 }
+main {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+}
 main > div {
-    display: flex;
     align-items: center;
     justify-content: center;
     /*height: 80px;
@@ -141,7 +147,7 @@ h3 {
 }
 article { 
     text-align: center;
-    margin: 50px 250px;
+    margin: 5% 15% 2% 15%;
     padding: 1em;
     border: 1px solid #5E3DB9;
     border-radius: 1em;
@@ -156,7 +162,7 @@ table {
 }
 .contenedor_enlaces { 
     width: fit-content;
-    margin: auto;
+    margin: 3% 40% 5% 40%;
 }
 
 .enlaces {
@@ -168,4 +174,5 @@ table {
 }
 .titulos {
     text-align: center;
+
 }
