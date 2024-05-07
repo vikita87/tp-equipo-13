@@ -21,6 +21,7 @@ img {
     height: 100%;
 }
 body {
+    position: relative;
     width: 100%;
     background-color: #E8E8F6;;
 }
