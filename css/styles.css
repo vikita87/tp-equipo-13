@@ -21,7 +21,9 @@ img {
     height: 100%;
 }
 body {
-    position: relative;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
     width: 100%;
     background-color: #E8E8F6;;
 }
@@ -49,7 +51,7 @@ nav li {
     height: 100px;
     color: var(--negro);
     font-size: 20px;
-    font-weight: 600px;
+    /*font-weight: 600px;*/
     text-align: center;
     padding-top: 38px;
     width: 200px;
@@ -192,5 +194,20 @@ footer {
     bottom: 0;
     width: 99%;
     margin-bottom: 0;
+}
+
+/*QUERYS*/
+
+@media screen and (max-width: 768px) {
+    .encabezado {
+        img {}
+        nav {margin-left: left;}
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    
+}
+@media screen and (orientation:landscape) {
+    
 }
 
