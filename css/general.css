@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Thasadith:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --azul: #5E3DB9;
+    --gris: #817D7D;
+    --contraste: #BE9899;
+    --negro: #151010; 
+    --blanco: #E8E8F6;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Comfortaa", sans-serif;
+    text-decoration: none;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto 3fr auto;
+    gap: 20px;
+    background-color: var(--blanco);
+    
+}
+
+/*Propiedades del Header*/
+
+header {
+    background-color: var(--azul);
+    border-radius: 0px 0px 15px 15px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    
+}
+
+header img {
+    width: 100px;
+    
+}
+
+header nav a {
+    color: var(--blanco);
+    height: 100px;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    list-style: none;
+    font-size: 20px;
+    color: var(--blanco);
+    
+}
+
+header nav li:hover{
+    
+    background-color: var(--negro);
+    box-shadow:  10px 10px 0px      #472e8d,
+                -10px -10px 0px #754ce5;
+
+    transition: 0.7s ease-out;
+    font-size: 25px;
+    
+}
+
+header nav a:hover {
+    text-decoration: overline;
+    color: var(--contraste);
+}
+
+/*  Propiedades comunes del main    */
+#cuerpo {
+    border-radius: 1em;
+    border: 1px dashed #5E3DB9;
+    margin: 10px;
+    padding: 10px;
+}
+
+#titulo {
+    background-color: #BE9899;
+    border-radius: 1em;
+    border: 1px dashed #5E3DB9;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#titulo p {
+    margin: 20px
+}
+
+#titulo h1 {
+    margin-top: 20px;
+}
+
+.boton1 {
+    background-color: var(--azul);
+    color:var(--blanco);
+    border-radius: 9px;
+    border: 0.5px solid #e4787b7b;
+    /*box-shadow: 3px 3px 3px;*/
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.boton1:hover {
+    background-color: var(--gris);
+    color: var(--blanco);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+/*  Propiedades del Footer  */
+
+footer {
+    background-color: var(--azul);
+    border-radius: 15px 15px 0px 0px;
+    display: grid;
+    align-items: center;
+    text-align: right;   
+}
+
+footer p{
+    color: var(--blanco);
+    margin: 20px 10px 20px 0px;
+}
+

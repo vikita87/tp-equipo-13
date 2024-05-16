@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr Pc - Servicio Técnico</title>
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/presupuesto.css">
+</head>
+<body>
+    <header>
+        <img src="../img/Logo_DR_PC.png" alt="">
+        <nav>    
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../pages/contacto.html">Contacto</a></li>
+                <li><a href="../pages/mantenimiento.html">Mantenimiento Técnico</a></li>
+                <li><a href="../pages/presupuesto.html">Presupuesto</a></li>
+                <li><a href="../pages/quienes_somos.html">Quienes somos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="principal">
+        <div id="titulo">
+            <h1>Presupuesto</h1>
+            <p id="parrafo1">Tabla de costos de Servicios</p>
+        </div>        
+        
+        <div id="cuerpo">
+        
+            
+            <table class="tabla">
+                <tr class="titulos">
+                    <th><strong>Servicio</strong></th>
+                    <th><strong>Valor</strong></th>
+                    <th><strong>Cantidad</strong></th>
+                    <th><strong>Agregar</strong></th>
+                </tr>
+                <tr>
+                    <td>Visita Técnica</td>
+                    <td>$10.000</td>
+                    <td><input id="cantidad1" type="text" placeholder="0"></td>
+                    <td><button onclick="imprimir(1)">Agregar</button></td>
+                </tr>
+                <tr>
+                    <td>Instalación de sistema operativo en PC</td>
+                    <td>$24.000</td>
+                    <td><input id="cantidad2" type="text" placeholder="0"></td>
+                    <td><button onclick="imprimir(2)">Agregar</button></td>
+                </tr>
+                <tr>
+                    <td>Modificación de IP en Pc existente</td>
+                    <td>$2.000</td>
+                    <td><input id="cantidad3" type="text" placeholder="0"></td>
+                    <td><button onclick="imprimir(3)">Agregar</button></td>
+                </tr>
+                <tr>
+                    <td>Instalación de Pc en puesto</td>
+                    <td>$4.000</td>
+                    <td><input id="cantidad4" type="text" placeholder="0"></td>
+                    <td><button onclick="imprimir(4)">Agregar</button></td>
+                </tr>
+                <tr>
+                    <td>Instalación de AllinOne en puesto de trabajo</td>
+                    <td>$3.000</td>
+                    <td><input id="cantidad5" type="text" placeholder="0"></td>
+                    <td><button onclick="imprimir(5)">Agregar</button></td>
+                </tr>
+                <tr>
+                    <td>Configuración de IP en comandera</td>
+                    <td>$3.500</td>
+                    <td><input id="cantidad6" type="text" placeholder="0"></td>
+                    <td><button onclick="imprimir(6)">Agregar</button></td>
+                </tr>
+                <tr>
+                    <td>Agregar comandera en Windows</td>
+                    <td>$3.500</td>
+                    <td><input id="cantidad7" type="text" placeholder="0"></td>
+                    <td><button onclick="imprimir(7)">Agregar</button></td>
+                </tr>
+                <tr>
+                    <td>Armado de cable de red punta a punta</td>
+                    <td>$2.000</td>
+                    <td><input id="cantidad8" type="text" placeholder="0"></td>
+                    <td><button onclick="imprimir(8)">Agregar</button></td>
+                </tr>
+                <tr>
+                    <td>Configuración de router</td>
+                    <td>$10.000</td>
+                    <td><input id="cantidad9" type="text" placeholder="0"></td>
+                    <td><button onclick="imprimir(9)">Agregar</button></td>
+                </tr>
+                <tr>
+                    <td>Apertura de puerto router ISP</td>
+                    <td>$6.000</td>
+                    <td><input id="cantidad10" type="text" placeholder="0"></td>
+                    <td><button onclick="imprimir(10)">Agregar</button></td>
+                </tr>
+                <tr>
+                    <td>Apertura de puerto router local</td>
+                    <td>$4.000</td>
+                    <td><input id="cantidad11" type="text" placeholder="0"></td>
+                    <td><button onclick="imprimir(11)">Agregar</button></td>
+                </tr>
+                <tr>
+                    <td>Adicional por distancia</td>
+                    <td>$4.000</td>
+                    <td><input id="cantidad12" type="text" placeholder="0"></td>
+                    <td><button onclick="imprimir(12)">Agregar</button></td>
+                </tr>
+                <tr>
+                    <td>Acceso remoto</td>
+                    <td>$4.000</td>
+                    <td><input id="cantidad13" type="text" placeholder="0"></td>
+                    <td><button onclick="imprimir(13)">Agregar</button></td>
+                </tr>
+            </table>
+        
+        <div class="contenedor_enlaces">
+            <a class="enlaces" id="generador"><button class="boton1" onclick="abrirCalc()">GENERAR PRESUPUESTO</button></a>
+        </div>
+    
+    </main>
+
+    
+    
+    
+    <footer>
+        <p><small>© - Todos los derechos reservados - 2024</small></p>
+    </footer>
+
+    <script src="../js/calculadora.js"></script>
+</body>
+</html>
