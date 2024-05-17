@@ -9,7 +9,7 @@
 #cuerpo {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: auto auto auto auto;
     align-content: center;
     
 }
@@ -20,9 +20,66 @@
 
 #cuerpo #nosotros {
     text-align: left;
-    margin: 50px 250px;
+    margin: 50px 250px 20px 250px;
     padding: 1em;
     border: 1px dashed var(--azul);
     border-radius: 1em;
     background-color: var(--contraste);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+article {
+    background-color: #5E3DB9;
+    border-radius: 1em;
+    padding: 15px;
+    margin: 5px;
+}
+
+article img {
+    border-radius: 999px;
+    width: 100%;
+}
+article p {
+    text-align: center;
+}
+
+.botonera {
+    bottom: 15px;
+    right: 15px;
+    max-width: fit-content;
+    margin: auto;
+    text-align: center;
+    border-radius: 1em;
+    padding: 20px;
+}
+
+button {
+    border-radius: 1em;
+    padding: 5px;
+    color: white;
+    background-color: #5E3DB9;
+    margin: 5px;
+}
+
+button:hover{
+    
+    background-color: var(--negro);
+    box-shadow:  5px 5px 0px      #472e8d,
+                -5px -5px 0px #754ce5;
+
+    transition: 0.7s ease-out;
+    font-size: 15px;
+    
+}
+#cajadetecnicos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#maqueta {
+
 }
