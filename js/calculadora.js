@@ -3,11 +3,12 @@ var suma = 0;
 
 function imprimir(fila){
     
-    let identificador = "cantidad"+fila;
+    let identificador = "#cantidad"+fila;
     
-    //Compruebo primero que el nro el dato ingresado en cantidad sea un nro positivo. 
-    if(isNaN(parseInt(document.getElementById(identificador).value))||parseInt(document.getElementById(identificador).value)<0){
-        alert("Esto no es un número mayor que cero! \nRecargando Página");
+    //Compruebo primero que el dato ingresado en cantidad, sea un nro entero positivo. 
+    
+    if(Number.isInteger(parseFloat(document.querySelector(identificador).value))==false || parseInt(document.querySelector(identificador).value)<=0){
+        alert("Esto no es un número válido! \nRecargando Página");
         location. reload();
     }
     
@@ -20,7 +21,7 @@ function imprimir(fila){
     cadena += '</tr>'
     cadena = cadena.split(["\n"])
     
-    let cant = document.getElementById(identificador).value;
+    let cant = document.querySelector(identificador).value;
     cadena.splice(3,1,'<td>' + cant + '</td>'); 
     cadena.splice(4,1,"<td>subTotal</td>"); //Elimino datos del boton y los reemplazo por una palabra cualquiera. 
     
@@ -34,7 +35,7 @@ function imprimir(fila){
     let precio = cadena[2].replace("<td>$","");
     precio = precio.replace("</td>","");
     precio = parseInt(precio) * 1000;
-    parseInt(cant);
+    cant = parseInt(cant);
     subTotal = precio * cant;
     suma += subTotal;
     subTotal = subTotal.toString()

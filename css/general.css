@@ -117,6 +117,24 @@ header nav a:hover {
     cursor: pointer;
 }
 
+.boton2 {
+    border-radius: 1em;
+    padding: 5px;
+    color: white;
+    background-color: #5E3DB9;
+    margin: 5px;
+}
+
+.boton2:hover{
+    
+    background-color: var(--negro);
+    box-shadow:  5px 5px 0px      #472e8d,
+                -5px -5px 0px #754ce5;
+
+    transition: 0.7s ease-out;
+    font-size: 15px;
+    
+}
 
 /*  Propiedades del Footer  */
 

@@ -55,7 +55,7 @@ article p {
     border-radius: 1em;
     padding: 20px;
 }
-
+/*
 button {
     border-radius: 1em;
     padding: 5px;
@@ -74,6 +74,7 @@ button:hover{
     font-size: 15px;
     
 }
+*/
 #cajadetecnicos {
     display: flex;
     justify-content: center;

@@ -26,9 +26,9 @@ let fecha = (new Date()).toLocaleDateString();
 
 //Me aseguro que el cliente haya elegido al menos un item de la página presupuesto. 
 if (cadenaRecup.length > 10){
-    document.getElementById("nro_presupuesto").innerHTML = "Presupuesto Nro: " + nroPresupuesto.toString();
-    document.getElementById("fecha_hoy").innerHTML = fecha;
-    document.getElementById("tablaNueva").innerHTML = tablaTerminada;
+    document.querySelector("#nro_presupuesto").innerHTML = "Presupuesto Nro: " + nroPresupuesto.toString();
+    document.querySelector("#fecha_hoy").innerHTML = fecha;
+    document.querySelector("#tablaNueva").innerHTML = tablaTerminada;
 }
 
 
