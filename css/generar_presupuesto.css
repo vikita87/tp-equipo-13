@@ -65,7 +65,15 @@ td {
 /*Movil*/
 @media (max-width: 575px) {
     #cuerpo {
-        background-color: orangered;
+        background-color: green;
+    }
+    .tabla {
+        font-size: 15px;
+    }
+    
+    td {
+        padding-left: 1px;
+        padding-right: 1px;
     }
     
 }
