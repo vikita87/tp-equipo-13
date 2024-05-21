@@ -42,6 +42,11 @@ td {
     text-align: center;
 }
 
+#texto_alternativo {
+    color: Red;
+    text-align: center;
+}
+
 #cuerpo #botones{
     display:flex;
     align-items: center;

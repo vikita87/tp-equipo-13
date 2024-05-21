@@ -5,6 +5,11 @@ function imprimir(fila){
     
     let identificador = "#cantidad"+fila;
     
+    //Cambio el estilo del input para confirmar que el click del botón. 
+    document.querySelector(identificador).style.backgroundColor = "#817D7D";
+    document.querySelector(identificador).style.color = "#E8E8F6";
+    
+    
     //Compruebo primero que el dato ingresado en cantidad, sea un nro entero positivo. 
     
     if(Number.isInteger(parseFloat(document.querySelector(identificador).value))==false || parseInt(document.querySelector(identificador).value)<=0){
