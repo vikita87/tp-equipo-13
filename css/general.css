@@ -151,3 +151,29 @@ footer p{
     margin: 20px 10px 20px 0px;
 }
 
+/*  Media Query */
+
+/*Tablet*/
+
+@media (min-width: 576px) and (max-width: 992px) {
+    header nav ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        text-decoration: underline;
+    }      
+}
+/*Fin Tablet*/
+
+/*Movil*/
+@media (max-width: 575px) {
+    header nav ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        text-decoration: underline;
+        font-size: 15px;
+    }    
+}
+
+/*Fin Movil*/

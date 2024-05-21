@@ -14,21 +14,21 @@
     
 }
 
-.tabla {
+#cuerpo .tabla {
     display:flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
 }
 
-td {
+#cuerpo td {
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 2px;
     text-align: center;
 }
 
-input {
+#cuerpo input {
     text-align: right;
     padding: 2px;
 }
@@ -39,3 +39,25 @@ input {
     justify-content: center;
     margin: 20px;
 }
+
+/*  Media Query */
+
+/*Tablet*/
+
+@media (min-width: 576px) and (max-width: 992px) {
+    #cuerpo {
+        background-color: gray;
+    }
+    
+}
+/*Fin Tablet*/
+
+/*Movil*/
+@media (max-width: 575px) {
+    #cuerpo {
+        background-color: orangered;
+    }
+    
+}
+
+/*Fin Movil*/

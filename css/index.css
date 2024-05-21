@@ -58,28 +58,25 @@
     border-radius: 1em;
 }
 
+
 /*  Media Query */
 
 /*Tablet*/
-/*Portrait*/
-@media (min-width: 576px) and (max-width: 991.98px) and (orientation:portrait) {
-    body{background: orange;}
-}
 
-/*landscape*/
-@media (min-width: 991.98px) and (max-width: 1199.98px)and (orientation:landscape) {
-    body{background: blue;}
+@media (min-width: 576px) and (max-width: 992px) {
+    #cuerpo {
+        grid-template-columns: auto;
+        background-color: gray;
+    }
 }
-/*fin tablet*/
+/*Fin Tablet*/
 
 /*Movil*/
-/*Portrait*/
-/*Default*/
 @media (max-width: 575px) {
-    body{background: green;}
- }
-/*landscape*/
-@media (min-width: 576px) and (max-width: 991.98px) and (orientation:landscape) {
-    body{background: black;}
+    #cuerpo {
+        grid-template-columns: auto;
+        background-color: orangered;
+    }
 }
-/*fin movil*/
+
+/*Fin Movil*/
