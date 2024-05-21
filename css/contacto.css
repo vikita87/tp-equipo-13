@@ -75,7 +75,7 @@ textarea {
 /*Movil*/
 @media (max-width: 575px) {
     #cuerpo {
-        background-color: orangered;
+        background-color: green;
     }
     #cuerpo p {
         margin: 10px;
