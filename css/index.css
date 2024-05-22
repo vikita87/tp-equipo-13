@@ -41,7 +41,8 @@
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
-    background-color: var(--azul);
+    background-color: #817D7D;
+    border: 1px dashed #5E3DB9;
     border-radius: 1em;
     margin: 25px;
     padding: 25px;

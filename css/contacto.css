@@ -7,22 +7,18 @@
 }
 
 #cuerpo {
-    min-height: 500px;
-    
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 25rem), 1fr));
+    margin: 5vw 30vw 5vw 30vw;
+    background-color: #BE9899;
+    border-radius: 1em;
+    border: 1px dashed #5E3DB9;
 }
 
 #cuerpo section {    
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 15px;
     width: fit-content;
     background-color: #BE9899;
     padding: 30px;
-    border-radius: 1em;
-    border: 1px dashed #5E3DB9
 }
 
 #cuerpo .form {
@@ -75,7 +71,7 @@ textarea {
 /*Movil*/
 @media (max-width: 575px) {
     #cuerpo {
-        background-color: green;
+        background-color: #151010;
     }
     #cuerpo p {
         margin: 10px;

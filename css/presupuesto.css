@@ -8,10 +8,11 @@
 
 #cuerpo {
     display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto auto;
-    align-content: center;
-    
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 25rem), 1fr));
+    margin: 5vw 20vw 5vw 20vw;
+    border-radius: 1em;
+    border: 1px dashed #5E3DB9;
+    background-color: #BE9899;
 }
 
 #cuerpo .tabla {
@@ -25,7 +26,6 @@
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 2px;
-    text-align: center;
 }
 
 #cuerpo input {
