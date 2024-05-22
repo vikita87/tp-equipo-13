@@ -58,12 +58,6 @@ article p {
     padding: 20px;
 }
 
-#espere {
-    display: none;
-    color: red;
-    text-align: center;
-}
-
 #cajadetecnicos {
     display: flex;
     justify-content: center;

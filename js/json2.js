@@ -13,15 +13,12 @@ let mujeres = 3;
 
 
 function AgregarTecnico() {
-    
-    if (hombres + mujeres >= 1){
-        document.querySelector("#espere").style.display = "inline-block";
-    }
-    
+       
     fetch("https://randomuser.me/api")
     .then(response => response.json())
     .then(data => {
         
+        /* FILTRADO POR PAISES.
         let lista_paises =["Spain","Mexico","United States","Canada","New Zealand"];
         let pais = data.results[0].location.country;
         
@@ -31,7 +28,9 @@ function AgregarTecnico() {
         } else {
             AgregarTecnico();
         }   
-        
+        */
+        let gender = data.results[0].gender;
+        filtrar_genero(gender,data);
         }
     )
     .catch(error => console.log("Ocurrió un error! " + error));
@@ -42,11 +41,9 @@ function filtrar_genero(genero,data){
     
     if (genero == 'male' && hombres >0){
         hombres --;
-        document.querySelector("#espere").style.display = "none";
         agregar_persona(data);
     } else if (genero == 'female' && mujeres >0){
         mujeres --;
-        document.querySelector("#espere").style.display = "none";
         agregar_persona(data);
     } else if (hombres + mujeres >= 1){
         AgregarTecnico();
