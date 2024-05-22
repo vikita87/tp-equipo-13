@@ -142,6 +142,7 @@ footer {
     background-color: var(--azul);
     border-radius: 15px 15px 0px 0px;
     display: grid;
+    grid-template-columns: auto auto;
     align-items: center;
     text-align: right;   
 }
@@ -150,6 +151,61 @@ footer p{
     color: var(--blanco);
     margin: 20px 10px 20px 0px;
 }
+
+.iconos {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    justify-content: left;
+    margin: 2%;
+    margin-left: 10px;
+    gap: 10px;
+    width: max-content;
+}
+
+.iconos a {
+    font-size: 35px;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    
+}
+
+.facebook {
+    background-color: white;
+    color: #4267B2;
+}
+
+.instagram {
+    --instagram-white: #fff;
+    --instagram-blue: #3051f1;
+    --instagram-purple: #c92bb7;
+    --instagram-red: #f73344;
+    --instagram-orange: #fa8e37;
+    --instagram-yellow: #fcdf8f;
+    --instagram-yellow_to: #fbd377;
+  
+    background: radial-gradient(
+        circle farthest-corner at 28% 120%,
+        var(--instagram-yellow) -16%,
+        var(--instagram-yellow_to) 16%,
+        var(--instagram-orange) 32%,
+        var(--instagram-red) 48%,
+        transparent 64%
+      ),
+      linear-gradient(0deg, var(--instagram-red) 16%, transparent 72%),
+      linear-gradient(
+        145deg,
+        var(--instagram-blue) -48%,
+        var(--instagram-purple) 24%
+      );
+}
+
+.whatsapp {
+    background-color: #2BB741;
+    color: white;
+} 
+
 
 /*  Media Query */
 
