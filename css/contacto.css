@@ -13,12 +13,14 @@
     background-color: #BE9899;
     border-radius: 1em;
     border: 1px dashed #5E3DB9;
+
 }
 
 #cuerpo section {    
     width: fit-content;
     background-color: #BE9899;
     padding: 30px;
+    border-radius: 1em;
 }
 
 #cuerpo .form {
