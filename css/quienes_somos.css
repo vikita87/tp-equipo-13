@@ -96,6 +96,10 @@ button:hover{
     #cuerpo #nosotros {
         margin: 10px;
     }
+    #cajadetecnicos {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
 }
 /*Fin Tablet*/
 
@@ -106,6 +110,10 @@ button:hover{
     }
     #cuerpo #nosotros {
         margin: 10px;
+    }
+    #cajadetecnicos {
+        display: grid;
+        grid-template-columns: auto;
     }
 }
 

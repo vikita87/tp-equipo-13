@@ -62,10 +62,11 @@ article p {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 #maqueta {
-    
+       
 }
 
 /*  Media Query */
@@ -79,16 +80,24 @@ article p {
     #cuerpo #nosotros {
         margin: 10px;
     }
+    #cajadetecnicos {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
 }
 /*Fin Tablet*/
 
 /*Movil*/
 @media (max-width: 575px) {
     #cuerpo {
-        background-color: orangered;
+        background-color: green;
     }
     #cuerpo #nosotros {
         margin: 10px;
+    }
+    #cajadetecnicos {
+        display: grid;
+        grid-template-columns: auto;
     }
 
     
