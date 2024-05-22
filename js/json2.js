@@ -28,14 +28,30 @@ function AgregarTecnico() {
         } else {
             AgregarTecnico();
         }   
-        */
+        
         let gender = data.results[0].gender;
         filtrar_genero(gender,data);
+        */
+       
+        let genero = data.results[0].gender;
+        if (genero == 'male' && hombres >0){
+            hombres --;
+            agregar_persona(data);
+        } else if (genero == 'female' && mujeres >0){
+            mujeres --;
+            agregar_persona(data);
+        } else if (hombres + mujeres >= 1){
+            AgregarTecnico();
+        } else {
+            document.querySelector("#mostrar").style.display = "none"; 
+        }
+
         }
     )
     .catch(error => console.log("Ocurrió un error! " + error));
 }
 
+/*
 
 function filtrar_genero(genero,data){
     
@@ -52,7 +68,7 @@ function filtrar_genero(genero,data){
     }
     
 }
-
+*/
 
 function agregar_persona(data){
     
