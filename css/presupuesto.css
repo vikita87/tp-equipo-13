@@ -46,7 +46,7 @@
 
 @media (min-width: 576px) and (max-width: 992px) {
     #cuerpo {
-        background-color: gray;
+        margin: 5vw;
     }
     
 }
@@ -55,7 +55,7 @@
 /*Movil*/
 @media (max-width: 575px) {
     #cuerpo {
-        background-color: green;
+        margin: 5vw;
     }
     #cuerpo .tabla {
         font-size: 15px;

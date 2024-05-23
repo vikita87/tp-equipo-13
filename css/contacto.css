@@ -62,7 +62,7 @@ textarea {
 
 @media (min-width: 576px) and (max-width: 992px) {
     #cuerpo {
-        background-color: gray;
+        margin: 5vw;
     }
     #cuerpo p {
         margin: 10px;
@@ -73,11 +73,12 @@ textarea {
 /*Movil*/
 @media (max-width: 575px) {
     #cuerpo {
-        background-color: #151010;
+        margin: 5vw;
     }
     #cuerpo p {
         margin: 10px;
     }
+    
 }
 
 /*Fin Movil*/
