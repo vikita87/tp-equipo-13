@@ -31,29 +31,28 @@
         <div id="cuerpo">
             <section>
                 <form class="form" action="#" method="post"> 
-                <div id="contenido">
-                            
-                    <label for="nombre" class="colocar_nombre">Nombre<span class="obligatorio">*</span></label>
-                    <input type="text" name="introducir_nombre" id="nombre" required="required" placeholder="Escribe tu nombre">
+                    <div id="contenido">
+                        <label class="colocar_nombre">Nombre<span class="obligatorio">*</span></label>
+                        <input type="text" name="introducir_nombre" id="nombre" required="required" placeholder="Escribe tu nombre">
 
-                    <label for="email" class="colocar_email">Email<span class="obligatorio">*</span></label>
-                    <input type="email" name="introducir_email" id="email" required="required" placeholder="Escribe tu email"> 
+                        <label class="colocar_email">Email<span class="obligatorio">*</span></label>
+                        <input type="email" name="introducir_email" id="email" required="required" placeholder="Escribe tu email"> 
 
-                    <label for="telefone" class="colocar_telefono">Teléfono</label>        
-                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                        <label class="colocar_telefono">Teléfono</label>        
+                        <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
 
-                    <label for="asunto" class="colocar_asunto">Asunto<span class="obligatorio">*</span></label>  
-                    <input type="text" name="introducir_asunto" id="assunto" required="required" placeholder="Escribe un asunto">
+                        <label class="colocar_asunto">Asunto<span class="obligatorio">*</span></label>  
+                        <input type="text" name="introducir_asunto" id="assunto" required="required" placeholder="Escribe un asunto">
 
-                    <label for="mensaje" class="colocar_mensaje">Mensaje<span class="obligatorio">*</span></label>                   
-                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="required" placeholder="Deja aquí tu mensaje..."></textarea>
-                    
+                        <label class="colocar_mensaje">Mensaje<span class="obligatorio">*</span></label>                   
+                        <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="required" placeholder="Deja aquí tu mensaje..."></textarea>
+                        
                     <div id="bajo">
-                    <button class="boton2" onclick="enviar_formulario" type="submit" name="enviar_formulario" id="enviar">Enviar</button>   
-                    <small><p class="obligatorio"> *los campos son obligatorios.</p></small>
+                        <button class="boton2" onclick="enviar_formulario" type="submit" name="enviar_formulario" id="enviar">Enviar</button>   
+                        <p class="obligatorio"><small>*los campos son obligatorios.</small></p>
                     </div>
-                </div>          
-            </form> 
+                    </div>          
+                </form> 
             </section>
         </div>
     </main>
