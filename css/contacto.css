@@ -10,10 +10,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 25rem), 1fr));
     margin: 5vw 30vw 5vw 30vw;
-    background-color: #BE9899;
     border-radius: 1em;
-    border: 1px dashed #5E3DB9;
-
 }
 
 #cuerpo section {    
@@ -21,6 +18,7 @@
     background-color: #BE9899;
     padding: 30px;
     border-radius: 1em;
+    border: 1px dashed #5E3DB9;
 }
 
 #cuerpo .form {

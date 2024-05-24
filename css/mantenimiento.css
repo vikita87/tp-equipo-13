@@ -32,6 +32,7 @@
     width: 30%;
     height: 90%;
     border-radius: 1em;
+    border: 1px dotted #5E3DB9;
 }
 
 #cuerpo .imagen:hover {
@@ -49,6 +50,7 @@
 @media (min-width: 576px) and (max-width: 992px) {
     #cuerpo {
         background-color: gray;
+        border-radius: 1em;
     }
     #cuerpo p {
         margin: 10px;
