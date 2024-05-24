@@ -8,8 +8,10 @@
 
 #cuerpo {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 25rem), 1fr));
     margin: 5vw 20vw 5vw 20vw;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    align-content: center;
     border-radius: 1em;
     border: 1px dashed #5E3DB9;
     background-color: #BE9899;
@@ -39,7 +41,9 @@
     justify-content: center;
     margin: 20px;
 }
-
+.boton2 {
+    margin: 0vw 40vw 2vw 40vw;
+}
 /*  Media Query */
 
 /*Tablet*/
