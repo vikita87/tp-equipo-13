@@ -79,4 +79,16 @@ textarea {
     
 }
 
+@media (max-width: 400px) {
+    input {
+        width: 60%;
+    }
+}
+
+@media (max-width: 400px) {
+    .colocar_mensaje {
+        
+    }
+}
+
 /*Fin Movil*/
