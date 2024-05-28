@@ -73,6 +73,9 @@
 
 /*Movil*/
 @media (max-width: 575px) {
+    #cuerpo {
+        margin: 5vw 20vw 13vw 20vw;
+    }
     .tabla {
         font-size: 15px;
     }
