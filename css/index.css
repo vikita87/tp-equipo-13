@@ -68,7 +68,7 @@
 @media (min-width: 576px) and (max-width: 992px) {
     #cuerpo {
         grid-template-columns: auto;
-        background-color: gray;
+        
     }
 }
 /*Fin Tablet*/
@@ -77,7 +77,7 @@
 @media (max-width: 575px) {
     #cuerpo {
         grid-template-columns: auto;
-        background-color: orangered;
+        
     }
 }
 

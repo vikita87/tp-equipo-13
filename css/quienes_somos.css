@@ -86,9 +86,6 @@ button:hover{
 /*Tablet*/
 
 @media (min-width: 576px) and (max-width: 992px) {
-    #cuerpo {
-        background-color: gray;
-    }
     #cuerpo #nosotros {
         margin: 10px;
     }
@@ -101,9 +98,6 @@ button:hover{
 
 /*Movil*/
 @media (max-width: 575px) {
-    #cuerpo {
-        background-color: orangered;
-    }
     #cuerpo #nosotros {
         margin: 10px;
     }

@@ -50,7 +50,6 @@
 
 @media (min-width: 576px) and (max-width: 992px) {
     #cuerpo {
-        background-color: gray;
         border-radius: 1em;
     }
     #cuerpo p {
@@ -62,7 +61,7 @@
 /*Movil*/
 @media (max-width: 575px) {
     #cuerpo {
-        background-color: orangered;
+        border-radius: 1em;
     }
     #cuerpo p {
         margin: 10px;

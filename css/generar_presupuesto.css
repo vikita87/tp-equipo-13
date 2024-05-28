@@ -8,10 +8,13 @@
 
 #cuerpo {
     display: grid;
+    margin: 5vw 20vw 13vw 20vw;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto;
     align-content: center;
-    min-height: 500px;
+    border-radius: 1em;
+    border: 1px dashed #5E3DB9;
+    background-color: #BE9899;
 }
 
 #nro_presupuesto, #fecha_hoy {
@@ -28,18 +31,17 @@
     
 }
 
-.tabla {
+#cuerpo .tabla {
     display:flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
 }
 
-td {
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 5px;
-    text-align: center;
+#cuerpo td {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 2px;
 }
 
 #texto_alternativo {
@@ -60,8 +62,10 @@ td {
 /*Tablet*/
 
 @media (min-width: 576px) and (max-width: 992px) {
-    #cuerpo {
-        background-color: gray;
+    #cuerpo td {
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 2px;
     }
     
 }
@@ -69,9 +73,6 @@ td {
 
 /*Movil*/
 @media (max-width: 575px) {
-    #cuerpo {
-        background-color: green;
-    }
     .tabla {
         font-size: 15px;
     }
