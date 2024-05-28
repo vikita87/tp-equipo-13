@@ -74,6 +74,7 @@
 /*Movil*/
 @media (max-width: 575px) {
     #cuerpo {
+        background-color: red;
         margin-bottom: 58vw;
     }
     .tabla {
