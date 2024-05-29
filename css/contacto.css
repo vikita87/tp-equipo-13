@@ -77,9 +77,6 @@ textarea {
         margin: 10px;
     }
     
-}
-
-@media (max-width: 400px) {
     input {
         width: 90%;
         margin-left: 15px;
