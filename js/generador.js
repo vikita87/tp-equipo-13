@@ -25,13 +25,17 @@ let nroPresupuesto = Math.floor(Math.random() * 1000);
 let fecha = (new Date()).toLocaleDateString();
 
 //Me aseguro que el cliente haya elegido al menos un item de la página presupuesto. 
-if (cadenaRecup.length > 10){
+if (cadenaRecup.length > 15){
     document.querySelector('#texto_alternativo').style.display = 'none';
     document.querySelector("#nro_presupuesto").innerHTML = "Presupuesto Nro: " + nroPresupuesto.toString();
     document.querySelector("#fecha_hoy").innerHTML = fecha;
     document.querySelector("#tablaNueva").innerHTML = tablaTerminada;
 }else{
     document.querySelector('#enviar').style.display = 'none';
+}
+
+if (cadenaRecupNueva[2] < 3){
+    document.querySelector("footer").style.marginTop = "50px";
 }
 
 

@@ -1,8 +1,10 @@
 var tabla = ""; 
 var suma = 0;
+var contador = 0; // Cuenta la cantidad de filas que tendrá la nueva tabla.
 
 function imprimir(fila){
     
+    contador = contador + 1; 
     let identificador = "#cantidad"+fila;
     
     //Cambio el estilo del input para confirmar que el click del botón. 
@@ -56,5 +58,5 @@ function imprimir(fila){
 
 //Abro la página generar_presupuesto y le envío la nueva tabla como parametro junto con El Total. 
 function abrirCalc(){
-    window.open("../pages/generar_presupuesto.html"+"?"+tabla + "///" + suma.toString(), "_self");        
+    window.open("../pages/generar_presupuesto.html"+"?"+tabla + "///" + suma.toString() + "///" + contador.toString(), "_self");        
 }
