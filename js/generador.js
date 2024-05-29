@@ -34,7 +34,7 @@ if (cadenaRecup.length > 15){
     document.querySelector('#enviar').style.display = 'none';
 }
 
-if (cadenaRecupNueva[2] < 3){
+if (cadenaRecupNueva[2] < 4){
     document.querySelector("footer").style.marginTop = "150px";
 }
 
