@@ -31,13 +31,17 @@
 }
 
 #cuerpo input {
-    text-align: right;
+    text-align: center;
     padding: 2px;
 }
 
 .contenedor_enlaces {
     display: flex;
     justify-content: center;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1
 }
 
 /*  Media Query */

@@ -81,14 +81,13 @@ textarea {
 
 @media (max-width: 400px) {
     input {
-        width: 60%;
+        width: 90%;
+        margin-left: 15px;
+        margin-bottom: 5px;
+    }
+    textarea {
+        margin-left: 15px;
+        width: 90%;
     }
 }
-
-@media (max-width: 400px) {
-    .colocar_mensaje {
-        
-    }
-}
-
 /*Fin Movil*/
