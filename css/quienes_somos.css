@@ -55,30 +55,11 @@ article p {
     border-radius: 1em;
     padding: 20px;
 }
-/*
-button {
-    border-radius: 1em;
-    padding: 5px;
-    color: white;
-    background-color: #5E3DB9;
-    margin: 5px;
-}
 
-button:hover{
-    
-    background-color: var(--negro);
-    box-shadow:  5px 5px 0px      #472e8d,
-                -5px -5px 0px #754ce5;
-
-    transition: 0.7s ease-out;
-    font-size: 15px;
-    
-}
-*/
 #cajadetecnicos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    
 }
 
 /*  Media Query */
@@ -91,7 +72,7 @@ button:hover{
     }
     #cajadetecnicos {
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto auto;
     }
 }
 /*Fin Tablet*/

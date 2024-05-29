@@ -36,13 +36,8 @@
 }
 
 .contenedor_enlaces {
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: auto;
-    align-items: center;
-    text-align: center;
-    
-    
+    display: flex;
+    justify-content: center;
 }
 
 /*  Media Query */
