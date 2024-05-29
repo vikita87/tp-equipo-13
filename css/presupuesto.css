@@ -35,14 +35,19 @@
     padding: 2px;
 }
 
-#cuerpo .contenedor_enlaces {
-    display: flex;
+.contenedor_enlaces {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
     align-items: center;
-    justify-content: center;
-    margin: 20px;
+    text-align: center;
+    
+    
 }
 .boton2 {
-    margin: 0vw 40vw 2vw 40vw;
+    /*margin: 0vw 40vw 2vw 40vw;*/
+    
+    
 }
 /*  Media Query */
 
