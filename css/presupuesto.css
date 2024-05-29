@@ -44,11 +44,7 @@
     
     
 }
-.boton2 {
-    /*margin: 0vw 40vw 2vw 40vw;*/
-    
-    
-}
+
 /*  Media Query */
 
 /*Tablet*/
@@ -79,7 +75,7 @@
         padding: 1px;
         width: 20px;
     }
-    
+   
 }
 
 /*Fin Movil*/

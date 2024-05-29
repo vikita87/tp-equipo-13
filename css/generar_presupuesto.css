@@ -81,7 +81,10 @@
         padding-left: 1px;
         padding-right: 1px;
     }
-    
+    footer {
+        position: absolute;
+        bottom: 0;
+    }
 }
 
 /*Fin Movil*/
