@@ -82,7 +82,7 @@
         padding-right: 1px;
     }
     footer {
-        position: absolute;
+        position: fixed;
         bottom: 0;
     }
 }
