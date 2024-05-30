@@ -57,6 +57,18 @@
     justify-content: center;
 }
 
+#cuerpo table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+}
+
+#cuerpo th, #cuerpo td {
+    border: 1px solid var(--azul);
+    padding: 8px;
+    text-align: left;
+    background-color: #E8E8F6;
+}
 
 /*  Media Query */
 
